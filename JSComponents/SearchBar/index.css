@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    height: 100vh;
+    background-color: #1C3879;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+
+#results {
+    background-color: #9C9EFE;
+    padding: 20px 0;
+    list-style: none;
+}
+.name {
+    background-color: #AC7088;
+    margin: 10px 0;
+    padding: 10px;
+}
